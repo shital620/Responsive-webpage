@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- style  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: rgb(104 44 60)"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./media/letter s with star logo_ very creative.jpeg"
+            height="40px"
+            width="50px"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Customer</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Product
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Clothing & Accessories</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Electronics</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Grocery & Food Items</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Home Decor & Furniture</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Cosmetics & Personal Care</a
+                  >
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Electronics</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- slider -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./media/Gallery of Hudson Yards' Retail and Restaurant Spaces Unveiled in New Renderings  - 12.jpeg"
+            class="d-block w-100"
+            alt="..."
+            height="400px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Shital Mall</h5>
+            <p>
+              "Believe in yourself, work hard, and never give up—great things
+              take time, but your dedication will lead to success!" ✨🚀
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./media/17 best places to shop in New York on a budget by a New Yorker.jpeg"
+            class="d-block w-100"
+            alt="..."
+            height="400px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Shital Mall</h5>
+            <p>
+              "Stay focused, stay strong! Every challenge is a step toward
+              success. Believe in yourself, keep moving forward, and never give
+              up!" 🚀✨.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./media/9 Best Consignment Stores in Toronto to Buy_Sell Clothing.jpeg"
+            class="d-block w-100"
+            alt="..."
+            height="400px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Shital Mall</h5>
+            <p>
+              A mall is a large shopping complex with various stores,
+              restaurants, entertainment options, and services, offering a
+              convenient shopping experience..
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- section  -->
+    <div class="container-fluid">
+    <!-- tagline -->
+    <div class="row">
+      <div class="col-12">
+        <h3 class="display-6 text-center mt-5 md-2">
+          Launching Shital Mall requires dedication and strategic execution.
+        </h3>
+      </div>
+   
+    <!-- features -->
+    <div class="row justify-content-evenly pt-3 pb-3">
+      <div class="col-md-3 text-center mt-5">
+        <h1><i class="bi bi-shop text-primary"></i></h1>
+        <h3>Shopping</h3>
+        <p>
+          ✔️ Wide Range of Brands – Featuring top national <br />and
+          international fashion, <br />electronics, and lifestyle brands.
+        </p>
+      </div>
+      <div class="col-md-3 text-center mt-5">
+        <h1><i class="bi bi-film text-info"></i></h1>
+        <h3>Entertainment & Fun</h3>
+        <p>
+          ✔️ Multiplex Cinema – Enjoy the latest blockbusters in high-definition
+          theaters. ✔️ Gaming Zone & Kids’ Play Area – Fun-filled activities for
+          all age groups.
+        </p>
+      </div>
+      <div class="col-md-3 text-center mt-5">
+        <h1><i class="bi bi-lock-fill text-danger"></i></h1>
+        <h3>Safety & Security</h3>
+        <p>
+          ✔️ 24/7 CCTV Surveillance – Ensuring a safe environment for all
+          visitors. ✔️ Emergency Response & Fire Safety – Well-equipped with
+          safety measures.
+        </p>
+      </div>
+  
+    </div>
+    <hr>
+    <!-- features end -->
+     <!-- growth -->
+      <div class="row justify-content-evenly pt-3 pb-5">
+        <div class="col-md-5 pt-3">
+          <img src="./media/growth.jpeg" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-5 pt-3">
+          <h5 class="mt-1">Expansion & Infrastructure Growth</h5>
+          <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped" style="width: 10%"></div>
+          </div>
+
+          <h5 class="mt-1">Financial & Revenue Growth</h5>
+         
+          <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-success" style="width: 25%"></div>
+          </div>
+
+
+          <h5 class="mt-1">Customer & Community Engagement</h5>
+          <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-info" style="width: 50%"></div>
+          </div>
+           <h5 class="mt-1">Digital & Technological Growth</h5>
+          <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-warning" style="width: 75%"></div>
+          </div>
+
+
+           <h5 class="mt-1">Business & Employment Growth</h5>
+          <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-danger" style="width: 85%"></div>
+          </div>
+
+          <h5 class="mt-1">Sustainability & Future Expansion</h5>
+          <div class="progress" role="progressbar" aria-label="primary striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-primary" style="width: 100%"></div>
+          </div>
+        </div>
+      </div>
+       <!-- contect  -->
+        <div class="row justify-content-evenly pt-2 pb-5" style="background-color: #f1f1f1;">
+          <div class="col-md-5 mt-5">
+            <h3 class="mb-4">Contact form</h3>
+            <form>
+              <div class="mb-3">
+                <label for="full name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="full name" >
+  
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-danger">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-5 mt-5">
+            <h3 class="mb-4">Address</h3>
+            <p> chapra
+              , Bihar  <br> <i class="bi bi-telephone-fill"></i>93046XXXXX</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57483.13954441492!2d84.74602465!3d25.780595599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992bb17fdf6ea1f%3A0xe3bbfac01f4ab27a!2sChapra%2C%20Bihar!5e0!3m2!1sen!2sin!4v1740656155723!5m2!1sen!2sin" style=" width:100%"height="250" 
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <!-- FAQ -->
+         <div class="row justify-content-evenly pt-5 pb-5 ">
+          <div class="col-md-10">
+            <h3 class="text-center">FAQ</h3>
+
+
+            <div class="container mt-5">
+              <h2 class="text-center mb-4">Shital Mall Growth</h2>
+              <div class="accordion" id="growthAccordion">
+                  
+                  <!-- Expansion & Infrastructure Growth -->
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Expansion & Infrastructure Growth
+                          </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#growthAccordion">
+                          <div class="accordion-body">
+                              - Increasing retail stores & brands.<br>
+                              - Upgrading with smart technology.<br>
+                              - Expanding entertainment & food zones.
+                          </div>
+                      </div>
+                  </div>
+          
+                  <!-- Financial & Revenue Growth -->
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Financial & Revenue Growth
+                          </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#growthAccordion">
+                          <div class="accordion-body">
+                              - Increasing revenue through retail leasing.<br>
+                              - Hosting promotional sales & events.<br>
+                              - Maximizing profitability via strategic partnerships.
+                          </div>
+                      </div>
+                  </div>
+          
+                  <!-- Customer & Community Engagement -->
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Customer & Community Engagement
+                          </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#growthAccordion">
+                          <div class="accordion-body">
+                              - Hosting cultural & festive events.<br>
+                              - Improving customer experience through feedback.<br>
+                              - Enhancing security, hygiene & comfort.
+                          </div>
+                      </div>
+                  </div>
+          
+                  <!-- Digital & Technological Growth -->
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Digital & Technological Growth
+                          </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#growthAccordion">
+                          <div class="accordion-body">
+                              - Implementing digital payment solutions.<br>
+                              - Launching a mobile app for easy access.<br>
+                              - AI-powered customer service assistance.
+                          </div>
+                      </div>
+                  </div>
+          
+                  <!-- Business & Employment Growth -->
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              Business & Employment Growth
+                          </button>
+                      </h2>
+                      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#growthAccordion">
+                          <div class="accordion-body">
+                              - Supporting startups & franchise stores.<br>
+                              - Generating employment opportunities.<br>
+                              - Promoting business collaborations.
+                          </div>
+                      </div>
+                  </div>
+          
+                  <!-- Sustainability & Future Expansion -->
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingSix">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                              Sustainability & Future Expansion
+                          </button>
+                      </h2>
+                      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#growthAccordion">
+                          <div class="accordion-body">
+                              - Eco-friendly initiatives like solar power.<br>
+                              - Expanding Shital Mall to new locations.<br>
+                              - Innovating with upcoming retail trends.
+                          </div>
+                      </div>
+                  </div>
+          
+              </div>
+          </div>
+          </div>
+         </div>
+         <!-- footer  -->
+         <div class="row justify-content-evenly bg-dark ">
+          <div class="col-md-3 pt-4 text-light">
+            <h5 class="pb-2">Our Vision</h5>
+            <p>To be the most loved and visited shopping destination by offering a perfect blend of fashion, food, and fun, while ensuring the best customer satisfaction.
+
+            </p>
+          </div>
+          <div class="col-md-3 pt-4 text-light">
+            <h5 class="pb-2">Important Link </h5>
+            <p>
+              <a href="#" class="link-light text-decoration-none ">Home</a><br>
+              <a href="#" class="link-light text-decoration-none ">About AS</a><br>
+              <a href="#" class="link-light text-decoration-none ">Contact As</a><br>
+              <a href="#" class="link-light text-decoration-none ">our team</a>
+
+            </p>
+          </div>
+          <div class="col-md-3 pt-4 text-light ">
+            <h5 class="pb-2">Contact As </h5>
+          <p> saheb ganj charpa <br>
+          BIHAR <br>
+          <i class="bi bi-telephone-fill"></i> 620117XXXXX.
+          </p>
+          </div>
+         </div>
+         <!-- copy right -->
+          <div class="row bg-secondary text-light text-center p-2">
+            <div class="col-md-12">
+              <p> [2025] Shital Mall. All rights reserved.</p>
+            </div>
+          </div>
+ </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navigation {
+  height: 34px;
+  background-color: aqua;
+}
+.content {
+  height: 95px;
+  background-color: beige;
+}
+
+.footer {
+  height: 50px;
+  background-color: blue;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255) !important;
+  font-weight: 400;
+}
